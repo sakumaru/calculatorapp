@@ -74,6 +74,13 @@ class ViewController: UIViewController {
             label.text = String(number2/number)
         }
             }
+    @IBAction func clear(){
+        label.text=String(0)
+        
+        operation = 0
+        number = 0
+        number2 = 0
+    }
     
     @IBAction func select0() {
         number = number*10+0
